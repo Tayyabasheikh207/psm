@@ -93,7 +93,7 @@ assword = st.text_input("Enter your password:", type="password", help="Ensure yo
 #Button Working
 if st.button("Check Strength"):
     if "password":
-         check_password_strength(password)
+         check_password_strength("password")
     else:
         st.warning("⚠️ Please enter a password first!") #show warning if password empty
 
